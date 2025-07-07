@@ -97,6 +97,7 @@ jspm_packages/
 .vscode/
 !.vscode/tasks.json
 !.vscode/launch.json
+*.code-workspace
 
 # Rush temporary files
 common/deploy/

@@ -1,0 +1,31 @@
+{
+  "name": "@sudo-von/ask-me-anything-api",
+  "version": "1.0.0",
+  "description": "Provides an ask-me-anything API for handling open-ended user queries and generating relevant responses.",
+  "keywords": [
+    "@sudo-von",
+    "ask-me-anything-api"
+  ],
+  "homepage": "https://github.com/sudo-von/under-the-hood/apis/ask-me-anything-api#readme",
+  "bugs": {
+    "url": "https://github.com/sudo-von/under-the-hood/apis/ask-me-anything-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-von/under-the-hood/apis/ask-me-anything-api.git"
+  },
+  "license": "MIT",
+  "author": "Jesús Ángel Rodríguez Martínez",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run start:clean && npm run start:build",
+    "start:build": "tsc",
+    "start:clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "@types/node": "~24.0.10",
+    "rimraf": "~6.0.1",
+    "typescript": "~5.8.3"
+  }
+}
