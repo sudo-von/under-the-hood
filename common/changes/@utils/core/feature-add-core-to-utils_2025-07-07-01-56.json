@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@utils/core",
+      "comment": "add core package to utils",
+      "type": "major"
+    }
+  ],
+  "packageName": "@utils/core"
+}
