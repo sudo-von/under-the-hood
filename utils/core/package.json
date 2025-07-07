@@ -1,0 +1,24 @@
+{
+  "name": "@utils/core",
+  "version": "1.0.0",
+  "description": "Provides a lightweight and reusable core service for managing applications.",
+  "keywords": [
+    "@utils",
+    "core"
+  ],
+  "license": "MIT",
+  "author": "Jesús Ángel Rodríguez Martínez",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run start:clean && npm run start:build",
+    "start:build": "tsc",
+    "start:clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3"
+  }
+}
