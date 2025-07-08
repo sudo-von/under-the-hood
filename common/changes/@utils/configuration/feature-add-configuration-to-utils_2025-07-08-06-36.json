@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@utils/configuration",
+      "comment": "add configuration package to utils",
+      "type": "major"
+    }
+  ],
+  "packageName": "@utils/configuration"
+}
