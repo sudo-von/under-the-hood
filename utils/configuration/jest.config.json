@@ -1,0 +1,17 @@
+{
+  "coveragePathIgnorePatterns": [
+    "abstracts?\\.ts$"
+  ],  
+  "extensionsToTreatAsEsm": [
+    ".ts"
+  ],
+  "testEnvironment": "node",
+  "transform": {
+    "^.+\\.ts$": [
+      "ts-jest",
+      {
+        "useESM": true
+      }
+    ]
+  }
+}

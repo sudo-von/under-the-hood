@@ -24,6 +24,11 @@
       "projectFolder": "apis/ask-me-anything-api"
     },
     {
+      "packageName": "@utils/configuration",
+      "projectFolder": "utils/configuration",
+      "shouldPublish": true
+    },
+    {
       "packageName": "@utils/core",
       "projectFolder": "utils/core",
       "shouldPublish": true
