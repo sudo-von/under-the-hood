@@ -16,5 +16,6 @@
     "target": "ES2020",
     "types": ["jest", "node"]
   },
+  "exclude": ["**/*.unit.test.ts", "**/*.integration.test.ts"],
   "include": ["src"]
 }
