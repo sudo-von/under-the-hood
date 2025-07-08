@@ -45,6 +45,7 @@ export abstract class AbstractConfiguration {
    * and returned as a fully typed object.
    *
    * @param s - The configuration schema defining keys and their expected primitive types.
+   *
    * @returns An object containing all configuration entries with correctly parsed types.
    */
   public abstract getAll<S extends ConfigurationSchema>(
